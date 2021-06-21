@@ -1,0 +1,19 @@
+{
+  "plantuml.diagramsRoot": "./diagrams/src",
+  "plantuml.exportFormat": "html",
+  "plantuml.exportMapFile": true,
+  "plantuml.exportOutDir": "./diagrams/out",
+  "solidity-va.flatten.mode": "truffle",
+  "solidity-va.preview.markdown": true,
+  "solidity-va.diagnostics.cdili_json.import": true,
+  "solidity-va.cockpit.view.topLevelContracts.listStyle": "tree",
+  "solidity-va.tools.surya.input.contracts": "workspace",
+  "solidity-va.uml.actors.enable": true,
+  "solidity-va.uml.options": null,
+  "diffEditor.codeLens": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "solidity-va.hover": true,
+  "solidity-va.debug.parser.showExceptions": false,
+  "solidity-va.whatsNew.disabled": true
+}

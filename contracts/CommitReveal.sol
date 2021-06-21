@@ -1,4 +1,6 @@
-// SPDX-License-Identifier: GPL-3.0
+// File: contracts\CommitReveal.sol
+
+
 
 pragma solidity 0.7.5;
 
@@ -30,7 +32,7 @@ contract CommitReveal {
         string memory _choice2
     ) {
         require(
-            _phaseLengthInSeconds >= 0,
+            _phaseLengthInSeconds >= 20,
             "Commit phase cannot be less than 20 seconds."
         );
         commitPhaseEndTime = block.timestamp + _phaseLengthInSeconds;
